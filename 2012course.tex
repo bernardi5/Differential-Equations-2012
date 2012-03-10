@@ -1,0 +1,169 @@
+%Time-stamp: <[2012course.tex] modified by Enrico Bernardi on Saturday, 2012.03.10 at 18 : 09 : 56 on Enrico-Bernardis-MacBook-Pro.local>
+
+
+\documentclass{beamer}
+%test svn
+%a test from laedell
+%now a test again from ubuntu
+%now again from lapdell
+\mode<presentation>
+{
+ % \usetheme{Warsaw}
+  % or ...
+
+ % \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+\usepackage{hyperref}
+%
+\usepackage{mathrsfs}
+%\usepackage{showkeys}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{yhmath}
+\DeclareMathOperator{\Char}{Char}
+\DeclareMathOperator{\spt}{Sp}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\re}{Re}
+%\DeclareMathOperator{\dim}{dim}
+\DeclareMathOperator{\rk}{rank}
+%\DeclareMathOperator{\ker}{Ker}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+\usepackage[LY1]{fontenc}               % specify text font encoding
+%\usepackage[LY1,mtbold]{mathtime}       % switch math fonts
+%\usepackage{times}
+\usepackage{lucidabr}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\def\dif{\partial}
+\def\hz{{\hat z}}
+\def\hx{{\hat x}}
+\def\hxi{{\hat \xi}}
+\def\pf{\noindent Proof:\;}
+\def\R{{\mathbb R}}
+\def\C{{\mathbb C}}
+\def\N{{\mathbb N}}
+\def\brho{{\bar\rho}}
+\def\qed{\hfill{q.e.d.}\vspace{2mm}}
+\def\lr#1{\langle{#1}\rangle}
+\def\Re{{\rm Re}}
+\def\x#1{x^{(#1)}}
+\def\xx#1{\xi^{(#1)}}
+\def\xip{\xi'}
+
+
+
+% \title[QUANTITATIVE METHODS FOR ECONOMIC ANALYSIS] % (optional, use only with long paper titles)
+% {QUANTITATIVE METHODS FOR ECONOMIC ANALYSIS}
+
+% \subtitle
+% {School of Economics, Bologna}
+
+% \author[Enrico Bernardi] % (optional, use only with lots of authors)
+% {E.~Bernardi\inst{1}}
+
+
+% \institute[University of Bologna, School of Economics] % (optional, but mostly needed)
+% {
+%   \inst{1}%
+%   Department Matemates\\
+%   University of Bologna
+
+% }
+% - Keep it simple, no one is interested in your street address.
+
+%\date[LMEC 2011] % (optional, should be abbreviation of conference name)
+%{LMEC First Quarter, 2011}
+
+
+%\subject{Mathematics}
+
+
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+% \begin{frame}
+%   \titlepage
+% \end{frame}
+
+\begin{frame}
+  \frametitle{Prerequisites from Linear Algebra and Matrix Theory}
+Finite-Dimensional Complex Linear Spaces and Matrices.
+
+Complex Linear $ n $-space.
+
+We define an $ n$-vector $ x $ to be an ordered $ n $-tuple of complex
+numbers $ \xi_{1},\xi_{2}, \dots \xi_{n} $ which we write as a column:
+\begin{equation*}
+  x = \begin{bmatrix}
+ \xi_{1}  \\[2pt] 
+ \ldots \\[2pt] 
+ \xi_{n}  \\[2pt] 
+\end{bmatrix}
+\end{equation*}
+
+The set of all such vectors is denoted by $ \C^{n} $.
+We denote complex conjugation by a bar:($ \bar{z} = a -ib, z=a+ib) $
+
+\begin{equation*}
+  \bar{x} = \begin{bmatrix}
+ \bar{\xi}_{1}  \\[2pt] 
+ \ldots \\[2pt] 
+ \bar{\xi}_{n}  \\[2pt] 
+\end{bmatrix}
+\end{equation*}
+ 
+\end{frame}
+
+
+\frame{ \frametitle{Prerequisites from Linear Algebra and Matrix Theory}%
+%
+The vector with zero components will be denoted by $ 0 $. The
+transpose of  an $ n$-vector $ x $ is an ordered $ n $-tuple of complex
+numbers written as a row:
+\begin{equation*}
+  x^{t} = (\xi_{1},\xi_{2}, \ldots, x_{n})
+\end{equation*}
+
+The Hermitian conjugate of $ x $ is defined by
+\begin{equation*}
+  x^{*} = \overline{x^{t}} = (\bar{\xi}_{1},\bar{\xi}_{2}, \ldots, \bar{\xi}_{n})
+\end{equation*}
+
+The vectors $ x + y $ and $ \lambda x $, where $ \lambda $ is a
+complex number are defined by
+\begin{equation*}
+ \begin{bmatrix}
+ \xi_{1} + \eta_{1}  \\[2pt] 
+ \ldots \\[2pt] 
+ \xi_{n} + \eta_{n}  \\[2pt] 
+\end{bmatrix} \quad \mathrm{and} \quad  \begin{bmatrix}
+\lambda \eta_{1}  \\[2pt] 
+ \ldots \\[2pt] 
+ \lambda\eta_{n}  \\[2pt] 
+\end{bmatrix}
+\end{equation*}
+
+%
+}
+
+
+
+\end{document}
+
+
