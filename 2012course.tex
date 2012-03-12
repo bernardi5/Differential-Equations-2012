@@ -1,4 +1,4 @@
-%Time-stamp: <[2012course.tex] modified by Enrico Bernardi on Saturday, 2012.03.10 at 18 : 09 : 56 on Enrico-Bernardis-MacBook-Pro.local>
+%Time-stamp: <[2012course.tex] modified by Enrico Bernardi on Monday, 2012.03.12 at 15 : 32 : 47 on Enrico-Bernardis-MacBook-Pro.local>
 
 
 \documentclass{beamer}
@@ -51,6 +51,7 @@
 \def\R{{\mathbb R}}
 \def\C{{\mathbb C}}
 \def\N{{\mathbb N}}
+\def\K{{\mathbb K}}
 \def\brho{{\bar\rho}}
 \def\qed{\hfill{q.e.d.}\vspace{2mm}}
 \def\lr#1{\langle{#1}\rangle}
@@ -58,7 +59,8 @@
 \def\x#1{x^{(#1)}}
 \def\xx#1{\xi^{(#1)}}
 \def\xip{\xi'}
-
+\def\intro{Prerequisites from Linear Algebra and Matrix
+    Theory}
 
 
 % \title[QUANTITATIVE METHODS FOR ECONOMIC ANALYSIS] % (optional, use only with long paper titles)
@@ -103,9 +105,9 @@
 
 \begin{frame}
   \frametitle{Prerequisites from Linear Algebra and Matrix Theory}
-Finite-Dimensional Complex Linear Spaces and Matrices.
+$ \S 1$\textbf{Finite-Dimensional Complex Linear Spaces and Matrices}.
 
-Complex Linear $ n $-space.
+\textit{1.1 Complex Linear $ n $-space}.
 
 We define an $ n$-vector $ x $ to be an ordered $ n $-tuple of complex
 numbers $ \xi_{1},\xi_{2}, \dots \xi_{n} $ which we write as a column:
@@ -137,7 +139,7 @@ The vector with zero components will be denoted by $ 0 $. The
 transpose of  an $ n$-vector $ x $ is an ordered $ n $-tuple of complex
 numbers written as a row:
 \begin{equation*}
-  x^{t} = (\xi_{1},\xi_{2}, \ldots, x_{n})
+  x^{t} = (\xi_{1},\xi_{2}, \ldots, \xi_{n})
 \end{equation*}
 
 The Hermitian conjugate of $ x $ is defined by
@@ -162,6 +164,127 @@ complex number are defined by
 %
 }
 
+
+\frame{ \frametitle{Prerequisites from Linear Algebra and Matrix Theory}%
+%
+Addition of vectors and multiplication of vectors by complex numbers
+satisfy the usual rules:
+
+\begin{eqnarray*}
+  x+0=x, x+y =y+x, x +(y+z) = (x+y) +z, 1\times x = x\\
+\alpha(x+y) = \alpha x + \alpha y, (\alpha + \beta)x = \alpha x +
+\beta x, \alpha(\beta x) = (\alpha \beta)x\\
+\end{eqnarray*}
+%
+
+As usual $ (x,y) = y^{*}x $ is the scalar product
+
+%
+\begin{equation}
+\label{eq1}
+(x,y) = y^{*}x = \xi_{1}\bar{\eta}_{1} + \ldots \xi_{n}\bar{\eta}_{n}
+\end{equation}
+%
+}
+
+
+\frame{ \frametitle{Prerequisites from Linear Algebra and Matrix
+    Theory}%
+It follows from the definition (\ref{eq1}) that
+
+\begin{eqnarray*}
+  (y,x) = \overline{(x,y)}, (\alpha x, \beta y) =
+  \alpha\bar{\beta}(x,y)\\
+(x + y,z) = (x,z) + (y,z), (x, y + z) = (x,y) + (x,z)\\
+(x,x) = |\xi_{1}|^{2} + \ldots +|\xi_{n}|^{2} > 0, x\neq 0\\
+\end{eqnarray*}
+
+The norm (modulus, length) of a vector $ x \in \C^{n}  $ is denoted by
+$ |x| $:
+
+\begin{equation}
+\label{eq2}
+  |x| = \sqrt{(x,x)} = \sqrt{|\xi_{1}|^{2} + \ldots +|\xi_{n}|^{2}}
+\end{equation}
+}
+
+
+\frame{ \frametitle{\intro}%
+%
+The norm has the following properties:
+\begin{enumerate}
+\item $ |x| > 0 $ if $ x \neq 0 $
+\item $ |\bar{x}| = |x| $
+\item $ |\lambda x| = |\lambda| |x| $ where $ \lambda \in \C $ is a
+  scalar
+\item $ | x + y| \leq |x| + |y| $ (triangle inequality)
+\item $ |(x,y)| \leq |x| |y| $ (Cauchy-Schwartz-Bunyakovskii inequality)
+\end{enumerate}
+%
+}
+
+
+\frame{ \frametitle{\intro}%
+%
+In general let $ V $ a vector space on the field $ \K $. ($ \K = \R $
+or $ \K = \C $). We have the following:
+
+\begin{definition}
+  A norm on $ V $ is an application $ x \mapsto |x| $ from $ V $ to $
+  [0,+\infty[ $ such that for any vectors $ x,y \in V $ and for every
+  scalar $ \lambda \in \K $ we have:
+\end{definition}
+%
+
+\begin{itemize}
+  \item $ |x| = 0 \Rightarrow x=0$
+\item $ |\lambda x| = |\lambda||x| $ homogeneity
+\item $ |x + y| \leq |x| + |y| $ triangle inequality
+\end{itemize}
+
+
+We then say that $ V $ is a \textbf{normed} space on $ \K $.
+}
+**
+\frame{ \frametitle{\intro}%
+%
+Let $ p\in\N $ be a natural number $ \geq 1 $. For $z\in\C^{n}$ the
+following also define norms on $ \C^{n} $:
+\begin{eqnarray*}
+  |z|_{\infty} = \max_{j=1}^{n}|z_{j}|, \qquad |z|_{p} =\left(\sum_{j=1}^{n}|z_{j}|^{p}\right)^{\frac{1}{p}}
+\end{eqnarray*}
+
+$ |\bullet|_{\infty} $ is called the \textit{maximum norm}, $
+|\bullet|_{p} $ is called the $ p $- norm. The norm in (\ref{eq2}) is
+the $ 2 $- norm. All norms in $ \C^{n} $ define the same topology.This is a consequence of the fact that, as we will show now, in finite dimensional space all norms are equivalent.
+
+%
+}
+
+\frame{ \frametitle{\intro}%
+%
+\begin{definition}
+Two norms $ N_{1}, N_{2} $ on a vector space $ V $ are called
+equivalent, if there are constants $ c,c'>0 $ such that
+\end{definition}
+\begin{eqnarray*}
+  cN_{1}(x) \leq N_{2}(x) \leq c'N_{1}(x) \quad \mathrm{for} ~ \mathrm{all }
+  \quad x \in V
+\end{eqnarray*}
+%
+}
+
+
+\frame{ \frametitle{\intro}%
+%
+\textbf{Proposition}
+  
+   On a finite-dimensional vector space $ V $ (over $\R$  or $\C$) all norms
+are equivalent.
+  
+%
+}
+**
 
 
 \end{document}

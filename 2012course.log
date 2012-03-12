@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.24)  10 MAR 2012 18:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.24)  12 MAR 2012 15:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,37 +1103,38 @@ LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 682.
 (./2012course.aux)
 \openout1 = `2012course.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for LMR/hlcm/m/n on input line 98.
-LaTeX Font Info:    Try loading font information for LMR+hlcm on input line 98.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for LMR/hlcm/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for LMR+hlcm on input line 100
+.
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucidabr/lmrhlcm.fd
 File: lmrhlcm.fd 2005/11/28 v4.3 Lucida New Math Arrows (SPQR/DPC/TUG)
 )
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Try loading font information for LY1+hls on input line 98.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for LY1+hls on input line 100.
+
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucida/ly1hls.fd
 File: ly1hls.fd 2003/01/04 v4.2k Lucida Bright Sans (KB Names)
 )
 LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 98.
+(Font)              scaled to size 10.29301pt on input line 100.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1199,7 +1200,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 98.
+Package hyperref Info: Link coloring OFF on input line 100.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1209,60 +1210,61 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (./2012course.out) (./2012course.out)
 \@outlinefile=\write5
 \openout5 = `2012course.out'.
 
 LaTeX Font Info:    Encoding `LY1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 98.
+(Font)              `operators' in the math version `normal' on input line 100.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  LY1/hlh/m/n --> OT1/cmss/m/n on input line 98.
+(Font)                  LY1/hlh/m/n --> OT1/cmss/m/n on input line 100.
 LaTeX Font Info:    Encoding `LY1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 98.
+(Font)              `operators' in the math version `bold' on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LY1/hlh/b/n --> OT1/cmss/bx/n on input line 98.
+(Font)                  LY1/hlh/b/n --> OT1/cmss/bx/n on input line 100.
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  LY1/hlh/m/n --> LY1/hlh/m/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 98.
+(Font)                  LY1/hlh/m/n --> LY1/hlh/m/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  LY1/hlh/b/n --> LY1/hls/bx/n on input line 98.
+(Font)                  LY1/hlh/b/n --> LY1/hls/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  LY1/hlh/b/n --> LY1/hls/bx/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 98.
+(Font)                  LY1/hlh/b/n --> LY1/hls/bx/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  LY1/hls/m/n --> LY1/hls/m/n on input line 98.
+(Font)                  LY1/hls/m/n --> LY1/hls/m/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  LY1/hls/b/n --> LY1/hls/m/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 98.
+(Font)                  LY1/hls/b/n --> LY1/hls/m/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  LY1/hlh/m/it --> LY1/hls/m/it on input line 98.
+(Font)                  LY1/hlh/m/it --> LY1/hls/m/it on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  LY1/hlh/b/it --> LY1/hls/m/it on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 98.
+(Font)                  LY1/hlh/b/it --> LY1/hls/m/it on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  LY1/hlst/m/n --> LY1/hlst/m/n on input line 98.
+(Font)                  LY1/hlst/m/n --> LY1/hlst/m/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  LY1/hlst/b/n --> LY1/hlst/m/n on input line 98.
+(Font)                  LY1/hlst/b/n --> LY1/hlst/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  LY1/hls/m/n --> LY1/hls/bx/n on input line 98.
+(Font)                  LY1/hls/m/n --> LY1/hls/bx/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  LY1/hls/m/it --> LY1/hls/bx/it on input line 98.
+(Font)                  LY1/hls/m/it --> LY1/hls/bx/it on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  LY1/hlh/b/n --> LY1/hlh/bx/n on input line 98.
+(Font)                  LY1/hlh/b/n --> LY1/hlh/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  LY1/hls/bx/n --> LY1/hls/bx/n on input line 98.
+(Font)                  LY1/hls/bx/n --> LY1/hls/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  LY1/hls/m/n --> LY1/hls/bx/n on input line 98.
+(Font)                  LY1/hls/m/n --> LY1/hls/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  LY1/hls/m/it --> LY1/hls/bx/it on input line 98.
+(Font)                  LY1/hls/m/it --> LY1/hls/bx/it on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  LY1/hlst/m/n --> LY1/hlst/bx/n on input line 98.
+(Font)                  LY1/hlst/m/n --> LY1/hlst/bx/n on input line 100.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1290,93 +1292,137 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 (./2012course.nav)
 LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
-(Font)              scaled to size 6.12003pt on input line 98.
-LaTeX Font Info:    Try loading font information for OML+hlcm on input line 131
+(Font)              scaled to size 6.12003pt on input line 100.
+LaTeX Font Info:    Try loading font information for OML+hlcm on input line 133
 .
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucidabr/omlhlcm.fd
 File: omlhlcm.fd 2005/11/28 v4.3 Lucida New Math Italic (SPQR/DPC/TUG)
 )
 LaTeX Font Info:    Font shape `OML/hlcm/m/it' will be
-(Font)              scaled to size 10.29301pt on input line 131.
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `OML/hlcm/m/it' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `OML/hlcm/m/it' will be
-(Font)              scaled to size 6.12003pt on input line 131.
-LaTeX Font Info:    Try loading font information for OMS+hlcy on input line 131
+(Font)              scaled to size 6.12003pt on input line 133.
+LaTeX Font Info:    Try loading font information for OMS+hlcy on input line 133
 .
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucidabr/omshlcy.fd
 File: omshlcy.fd 2005/11/28 v4.3 Lucida New Math Symbols (SPQR/DPC/TUG)
 )
 LaTeX Font Info:    Font shape `OMS/hlcy/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 131.
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `OMS/hlcy/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `OMS/hlcy/m/n' will be
-(Font)              scaled to size 6.12003pt on input line 131.
-LaTeX Font Info:    Try loading font information for OMX+hlcv on input line 131
+(Font)              scaled to size 6.12003pt on input line 133.
+LaTeX Font Info:    Try loading font information for OMX+hlcv on input line 133
 .
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucidabr/omxhlcv.fd
 File: omxhlcv.fd 2005/11/28 v4.3 Lucida New Math Extension (SPQR/DPC/TUG)
 )
 LaTeX Font Info:    Font shape `OMX/hlcv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 131.
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `OMX/hlcv/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `OMX/hlcv/m/n' will be
-(Font)              scaled to size 6.12003pt on input line 131.
-LaTeX Font Info:    Try loading font information for U+msa on input line 131.
+(Font)              scaled to size 6.12003pt on input line 133.
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 131.
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 131.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 133.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `LMR/hlcm/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 131.
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `LMR/hlcm/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `LMR/hlcm/m/n' will be
-(Font)              scaled to size 6.12003pt on input line 131.
+(Font)              scaled to size 6.12003pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/it' will be
-(Font)              scaled to size 10.29301pt on input line 131.
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/it' will be
-(Font)              scaled to size 7.76001pt on input line 131.
+(Font)              scaled to size 7.76001pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/it' will be
-(Font)              scaled to size 6.12003pt on input line 131.
+(Font)              scaled to size 6.12003pt on input line 133.
+LaTeX Font Info:    Font shape `LY1/hls/b/n' will be
+(Font)              scaled to size 10.29301pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 131.
+(Font)              scaled to size 13.24796pt on input line 133.
 LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
-(Font)              scaled to size 4.15997pt on input line 131.
+(Font)              scaled to size 4.15997pt on input line 133.
  [1
 
 {/Users/enrico/Library/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}]
-LaTeX Font Info:    Try loading font information for LY1+hlh on input line 163.
+LaTeX Font Info:    Try loading font information for LY1+hlh on input line 165.
 
 
 (/usr/local/texlive/2011/../texmf-local/tex/latex/lucida/ly1hlh.fd
 File: ly1hlh.fd 2003/01/04 v4.2k Lucida Bright (KB Names)
 )
 LaTeX Font Info:    Font shape `LY1/hlh/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 163.
+(Font)              scaled to size 10.29301pt on input line 165.
 LaTeX Font Info:    Font shape `LY1/hlh/m/n' will be
-(Font)              scaled to size 7.76001pt on input line 163.
+(Font)              scaled to size 7.76001pt on input line 165.
 LaTeX Font Info:    Font shape `LY1/hlh/m/n' will be
-(Font)              scaled to size 6.12003pt on input line 163.
+(Font)              scaled to size 6.12003pt on input line 165.
  [2
+
+]
+Overfull \hbox (9.69052pt too wide) in alignment at lines 188--188
+ [][][] []
+ []
+
+[3
+
+] [4
+
+] [5
+
+]
+LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 247.
+LaTeX Font Info:    Font shape `OML/hlcm/m/it' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `OMS/hlcy/m/n' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `OMX/hlcv/m/n' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `LMR/hlcm/m/n' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `LY1/hlh/m/n' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `LY1/hls/m/n' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+LaTeX Font Info:    Font shape `LY1/hls/m/it' will be
+(Font)              scaled to size 5.19997pt on input line 247.
+ [6
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+]
+[8] [9
+
+] [10
+
+] [11
 
 ]
 \tf@nav=\write6
@@ -1388,21 +1434,20 @@ LaTeX Font Info:    Font shape `LY1/hlh/m/n' will be
 \tf@snm=\write8
 \openout8 = `2012course.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
-
-(./2012course.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+ (./2012course.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `2012course.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16076 strings out of 493629
- 301157 string characters out of 3143322
- 369851 words of memory out of 3000000
- 18959 multiletter control sequences out of 15000+200000
- 17592 words of font info for 51 fonts, out of 3000000 for 9000
+ 16196 strings out of 493629
+ 303370 string characters out of 3143322
+ 369958 words of memory out of 3000000
+ 19056 multiletter control sequences out of 15000+200000
+ 22333 words of font info for 64 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  49i,14n,55p,418b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/lo
@@ -1412,12 +1457,13 @@ ve/2011/../texmf-local/fonts/type1/bh/lucida/lbme.pfb></usr/local/texlive/2011/
 ../texmf-local/fonts/type1/bh/lucida/lbmo.pfb></usr/local/texlive/2011/../texmf
 -local/fonts/type1/bh/lucida/lbms.pfb></usr/local/texlive/2011/../texmf-local/f
 onts/type1/bh/lucida/lbr.pfb></usr/local/texlive/2011/../texmf-local/fonts/type
-1/bh/lucida/lsi.pfb></usr/local/texlive/2011/../texmf-local/fonts/type1/bh/luci
-da/lsr.pfb>
-Output written on 2012course.pdf (2 pages, 36524 bytes).
+1/bh/lucida/lsd.pfb></usr/local/texlive/2011/../texmf-local/fonts/type1/bh/luci
+da/lsi.pfb></usr/local/texlive/2011/../texmf-local/fonts/type1/bh/lucida/lsr.pf
+b>
+Output written on 2012course.pdf (11 pages, 66361 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 25 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
