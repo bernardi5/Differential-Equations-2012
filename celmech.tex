@@ -1,0 +1,141 @@
+%Time-stamp: <[exampleTransitionDec2011.tex] modified by Enrico Bernardi on
+%Friday, 2012.01.13 at 15 : 34 : 11 on Enrico-Bernardis-MacBook-Pro.local>
+%Last modified: Sun 12 Feb 2012 02:57:34 PM CET
+\documentclass[12pt]{amsart}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  packages  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\usepackage[scaled=0.92]{helvet}	% set Helvetica as the sans-serif font
+%\renewcommand{\rmdefault}{ptm}		% set Times as the default text font
+
+% If AMS-LaTeX is used, it can be loaded before or after mtpro2
+\usepackage{amsmath}		
+
+% The following loads mtpro and defines some common MTPro options [2, 4]
+%\usepackage[subscriptcorrection,slantedGreek,nofontinfo]{mtpro2}
+
+%
+\usepackage{amsfonts,layout} \usepackage{latexsym} \usepackage{amsmath}
+%\usepackage{amssymb} \usepackage{fancyhdr} 
+%\usepackage{showkeys}
+%
+\usepackage{nopageno}
+%\usepackage{graphicx, fleqn, tabularx, wrapfig} \usepackage{graphics}
+\usepackage{fullpage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% end of packages  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% here is the macro \caution: it prints a marginal note containing the text in
+% braces. Note that if the variable \madechanges is set to zero, every \caution
+% command sequence is ignored.  To hide the marginal notes just comment the
+% \madechanges=1 line and uncomment the \madechanges=0.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\newcount\madechanges \madechanges=1 \oddsidemargin=16pt \marginparwidth=3.4cm
+%\madechanges=0
+\def\caution#1{\ifnum \madechanges=1 \affixmessage{#1}% 
+\else \relax \fi}
+\def\affixmessage#1{\marginpar{{\footnotesize  \em #1} \openup
+-.3\baselineskip}}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%  Comment the following line if lucida fonts are missing %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{lucidabr} %\usepackage[LY1]{fontenc}
+\usepackage[T1,altbullet,expert,nofontinfo,lucidascale]{lucidabr}%
+\usepackage[LY1]{fontenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% numbering styles %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\newtheorem{theorem}{Theorem} \newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma} \newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition} \newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise} \newtheorem{remark}{Remark}
+%
+%
+%\def\thesubsection    {\thesection.\arabic{subsection}}
+%
+\renewcommand{\thetheorem}{\thesection.\arabic{theorem}}
+\renewcommand{\theproposition}{\thesection.\arabic{proposition}}
+\renewcommand{\thelemma}{\thesection.\arabic{lemma}}
+\renewcommand{\thedefinition}{\thesection.\arabic{definition}}
+\renewcommand{\thecorollary}{\thesection.\arabic{corollary}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\theremark}{\thesection.\arabic{remark}}
+\renewcommand{\theexample}{\thesection.\arabic{example}}
+\renewcommand{\theexercise}{\thesubsection.\arabic{exercise}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% for better readability change phi to varphi ... %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\def\epsilon{\varepsilon} \def\phi{\varphi}
+%
+\def\gb{\sqrt{qx_{1}^{2} + (1 + Ax_{0}^{2})\csi{1}^{2}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% math declarations  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\DeclareMathOperator{\supp}{supp} \DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\sing}{sing} \DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\Char}{Char} \DeclareMathOperator{\spec}{Spec}
+\DeclareMathOperator{\Imm}{Im} \DeclareMathOperator{\diag}{diag}
+%\DeclareMathOperator{\sp}{}
+\def\R{\mathbb{R}}
+% \def\C{\mathbb{C}} \def\Q{\mathbb{Q}} \def\N{\mathbb{N}} \def\P{\mathbb{P}}
+% \def\M{\mathbb{M}} \def\Z{\mathbb{Z}}
+%
+\def\csi#1{\xi_{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% next line disposes of underfull messages of the %%%%%%%%%%%%%%%%%%
+%%%%%%%% output routine; comment it if you have none     %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\vbadness=10000
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+
+%\voffset=-280pt \paperheight=1000pt \topmargin=-240pt \textheight = 10in
+\setlength\parindent{0pt}
+
+\begin{document}
+\section{Example}
+
+
+\end{document}
